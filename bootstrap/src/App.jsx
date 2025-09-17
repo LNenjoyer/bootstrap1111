@@ -9,7 +9,31 @@ function App() {
 
   return (
     <>
-      <div>
+      <div class="container">
+          <div>
+            <h1>Książki dla programisty - moja biblioteczka</h1>
+          </div>
+      
+        <div class="row">
+          <div class="col">				
+            <p>zawartość jednego bloku w wierszu</p>
+              
+          </div>
+
+        </div>
+        
+          <div>
+            <h1>informacja o prawach autorskich</h1>
+          <p>wszystkie zdjęcia książek oraz opisy pochodzą ze strony https://helion.pl</p>
+          <div>			
+        
+      </div>
+
+
+
+
+
+      {/* <div>
         <h1>Test kontenerów</h1>
       </div>
       <div className='row'>
@@ -89,7 +113,7 @@ function App() {
       </div>
       <div>
         <h1>Koniec testu</h1>
-      </div>
+      </div> */}
       
     </>
   )

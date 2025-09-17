@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
-import Film from './Film';
+import Film from './Film.jsx';
 
 function App() {
   
@@ -14,7 +13,7 @@ function App() {
             <h1>Książki dla programisty - moja biblioteczka</h1>
           </div>
           <div className='row'>
-            <Film/>
+            <Film /> 
           </div>
           
         
